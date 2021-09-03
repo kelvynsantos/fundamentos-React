@@ -1,12 +1,12 @@
-body { 
-    background-color: #444; 
-    color: #ffff; 
-    text-align: center; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular'; 
-    font-weight:300; 
-    font-size: 2rem;
-} 
- 
-h1, h2 { 
-    font-weight: 300;
-}
+    body { 
+        background-color: #444; 
+        color: #ffff; 
+        text-align: center; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular'; 
+        font-weight:300; 
+        font-size: 2rem;
+    } 
+    
+    h1, h2 { 
+        font-weight: 300;
+    }
