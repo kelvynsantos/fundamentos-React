@@ -1,0 +1,42 @@
+import React from 'react'; 
+import Primeiro from './components/Primeiro' 
+import ComParametro from './components/ComParametro' 
+import compoFilhos from './components/compoFilhos' 
+import Card from './components/layout/Card' 
+import './App.css'
+ 
+export default (props) => (
+    <div className='App'> 
+      <Card titulo="Primeiro componente"> 
+    <Primeiro/>
+    </Card> 
+    <Card titulo="Componente com Parametro"> 
+    <ComParametro titulo="Esse é o título" subtitulo="Esse é o subtítulo"/> 
+    <ComParametro titulo="Opa" subtitulo="Epa"/>
+    </Card> 
+    <Card titulo="Componentes com filhos"> 
+    <compoFilhos>
+         <ul> 
+            <li>Erick</li> 
+            <li>Carlos</li> 
+            <li>Maria</li> 
+            <li>Ana</li>
+         </ul>
+    </compoFilhos> 
+    </Card>
+    <Card titulo="Exercício X">Conteudo</Card>
+{/*<h1>Olá React</h1>, JSX
+<Primeiro />, 
+<ComParametro titulo="Esse é o título" subtitulo="Esse é o subtítulo"/> */} 
+    {/* <compoFilhos> 
+        <ul> 
+            <ul> 
+                 <li>Ana</li>
+                 <li>Bia</li> 
+                 <li>Carlos</li> 
+                 <li>Daniel</li>
+            </ul>        
+        </ul>
+    </compoFilhos> */}
+</div>
+);
