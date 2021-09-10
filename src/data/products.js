@@ -1,5 +1,5 @@
 export default [ 
-    { id: 1, name: 'Caneta', price: 7.59}, 
-    { id: 2, name: 'Lapis', price: 2.50}, 
-    { id: 3, name: 'Caderno', price: 19.50},
+    { id: 1, nome: 'Caneta', preco: 7.59}, 
+    { id: 2, nome: 'Lapis', preco: 2.50}, 
+    { id: 3, nome: 'Caderno', preco: 19.50},
 ]

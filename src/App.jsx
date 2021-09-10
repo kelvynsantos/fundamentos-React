@@ -3,7 +3,8 @@ import Primeiro from './components/Primeiro'
 import ComParametro from './components/ComParametro' 
 import compoFilhos from './components/compoFilhos' 
 import Card from './components/layout/Card' 
-import './App.css'
+import './App.css' 
+import Repeticao from './components/Repeticao'
  
 export default (props) => (
     <div className='App'> 
@@ -24,7 +25,10 @@ export default (props) => (
          </ul>
     </compoFilhos> 
     </Card>
-    <Card titulo="Exercício X">Conteudo</Card>
+    <Card titulo="Exercício X">Conteudo</Card> 
+    <Card titulo="Repetição">
+         <Repeticao></Repeticao> 
+    </Card>
 {/*<h1>Olá React</h1>, JSX
 <Primeiro />, 
 <ComParametro titulo="Esse é o título" subtitulo="Esse é o subtítulo"/> */} 
