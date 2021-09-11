@@ -5,6 +5,8 @@ import compoFilhos from './components/compoFilhos'
 import Card from './components/layout/Card' 
 import './App.css' 
 import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'; 
+import CondicionalComIf from './components/CondicionalComIf';
  
 export default (props) => (
     <div className='App'> 
@@ -28,6 +30,12 @@ export default (props) => (
     <Card titulo="Exercício X">Conteudo</Card> 
     <Card titulo="Repetição">
          <Repeticao></Repeticao> 
+    </Card> 
+    <Card titulo="Condicional V1"> 
+    <Condicional numero={10}></Condicional>
+    </Card> 
+    <Card titulo="Condicional V2"> 
+    <CondicionalComIf numero={11}></CondicionalComIf> 
     </Card>
 {/*<h1>Olá React</h1>, JSX
 <Primeiro />, 
